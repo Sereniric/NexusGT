@@ -11,7 +11,8 @@
 cd PS02
 python -m venv .venv
 source .venv/bin/activate
-python -m pip install -e '.[test]'
+python -m pip install -r requirements.txt
+python -m pip install -e .
 ```
 
 ## Run the dashboard
